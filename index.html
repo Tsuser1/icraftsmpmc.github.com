@@ -9,14 +9,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,49 +19,63 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/index.html">iCraft SMP MC</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" disabled=disabled>About</a>
-                    </li>
-                    <li>
-                        <a href="#" disabled=disabled>Services</a>
-                    </li>
-                    <li>
-                        <a href="#" disabled=disabled>Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Welcome to iCraft SMP MC's temporary website.</h1>
-                <p class="lead">We are a Towny server, and this is our temporary website.</p>
+            <div class="col-md-12">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                             <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button> <a class="navbar-brand" href="#"><b>iCraft SMP</b></a>
+                    </div>
+                </nav>
+                <div class="jumbotron">
+                    <h2>
+                        Hello there!
+                    </h2>
+                    <p>
+                        Thank you for visiting <strong>iCraft SMP</strong>. We are offering a new take on Towny servers.
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                    </p>
+                </div>
             </div>
         </div>
-        <!-- /.row -->
-
+        <div class="row">
+            <div class="col-md-4">
+                <h2>
+                    Rankups
+                </h2>
+                <p>
+                    On our server we don't really believe in the Pay to Play philosophy so everyone on the server has the ability to eventually unlock those features which are normally reserved for donators.<br />
+                </p>
+                <p>
+                    <a class="btn" href="#">View details »</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>
+                    Fully EULA compliant
+                </h2>
+                <p>
+                    It is getting really hard to find servers that won't suddenly disappear as Mojang issues their latest batch of EULA enforcements. By allowing anyone to gain donator perks, we are fully compliant.<br />
+                </p>
+                <p>
+                    <a class="btn" href="#">View details »</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>
+                    Professionally crafted
+                </h2>
+                <p>
+                    Anyone can, and everyone is for that matter, creating servers these days. Our server was designed and setup with the help of a server development expert assuring that you will have a great experience.
+                </p>
+                <p>
+                    <a class="btn" href="#">View details »</a>
+                </p>
+            </div>
+        </div>
     </div>
 </body>
